@@ -1,8 +1,8 @@
 Follow these steps to run the conatiner:
 
 
-1. To download the tar having the source code
-   $ wget https://github.com/deepak-deez/ubuntu-nginx-image/blob/master/ubuntu_nginx.tar.gz
+1.  Download the tar having the source code from this link:
+    https://github.com/deepak-deez/ubuntu-nginx-image/blob/master/ubuntu_nginx.tar.gz
 
 
 2. To extract the content of tar file
