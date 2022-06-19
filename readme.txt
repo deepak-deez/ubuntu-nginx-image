@@ -23,3 +23,5 @@ Follow these steps to run the conatiner:
 
 4. The Nginx access log & error log can be seen in the docker stdout & stderr using:
    $ docker logs {container_name}
+
+5. We can get the client IP from these logs.
