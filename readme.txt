@@ -13,10 +13,10 @@ Follow these steps to run the conatiner:
 
 
 3. build image from dockerfile using:
-    docker build -t tag
+    docker build -t imagename:tag
 
 4. Run this command to run the docker container:
-   $  docker run -d -v myvol:/var/www/html --name={container_name} -p 80:80 {image_name}
+   $  docker run -d -v myvol:/var/www/html --name={container_name} -p 80:80 {image_name:tag}
 
    myvol containing the index.html is present inside the tar file itself.
 
