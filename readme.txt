@@ -13,7 +13,7 @@ Follow these steps to run the conatiner:
 
 
 3. build image from dockerfile using:
-    docker build -t imagename:tag
+    docker build -t imagename:tag  current_path
 
 4. Run this command to run the docker container:
    $  docker run -d -v myvol:/var/www/html --name={container_name} -p 80:80 {image_name:tag}
