@@ -4,16 +4,19 @@ Follow these steps to run the conatiner:
 1.  Download the tar having the source code from this link:
     https://github.com/deepak-deez/ubuntu-nginx-image/blob/master/ubuntu_nginx.tar.gz
 
-   
+2. create volume myvol using command:
+    docker volume create myvol
+
+3. copy the index.html with Helloworld text in myvol folder into the mountpoint.  
 
 
 
-2. To extract the content of tar file
+4. To extract the content of tar file
    $ tar -xzvf ubuntu_nginx.tar.gz 
 
 
 3. build image from dockerfile using:
-    docker build -t imagename:tag  current_path
+    docker build -t imagename:tag
 
 4. Run this command to run the docker container:
    $  docker run -d -v myvol:/var/www/html --name={container_name} -p 80:80 {image_name:tag}
